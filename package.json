@@ -1,0 +1,55 @@
+{
+  "name": "dsh-memory-bank",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Durable memory bank for DeepSeek Harness, shared by the agent (remember tool) and the human (Settings page).",
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory",
+    "agent-memory",
+    "persistent-context"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NamesBlues/dsh-Memory-Bank.git"
+  },
+  "homepage": "https://github.com/NamesBlues/dsh-Memory-Bank",
+  "bugs": {
+    "url": "https://github.com/NamesBlues/dsh-Memory-Bank/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  }
+}

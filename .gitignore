@@ -1,0 +1,15 @@
+# Dependencies (this package has none, but local installs may add them)
+node_modules/
+
+# Build and pack artifacts
+dist/
+*.tgz
+*.log
+
+# Local environment and editor noise
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

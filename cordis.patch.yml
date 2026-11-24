@@ -1,0 +1,5 @@
+# dsh-memory-bank: one Host row. The Client half rides the same row's package
+# name through `dsh.client` and renders the Settings page.
+- insert:
+    - id: memory-bank
+      name: dsh-memory-bank

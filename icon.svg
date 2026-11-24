@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Memory bank">
+  <defs>
+    <linearGradient id="mb-card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b6cf6"/>
+      <stop offset="1" stop-color="#2447b8"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="10" width="52" height="44" rx="10" fill="url(#mb-card)"/>
+  <rect x="14" y="18" width="20" height="4.5" rx="2.25" fill="#ffffff" opacity="0.95"/>
+  <rect x="14" y="27" width="36" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/>
+  <rect x="14" y="34" width="30" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/>
+  <rect x="14" y="41" width="24" height="3.5" rx="1.75" fill="#ffffff" opacity="0.55"/>
+  <circle cx="48" cy="19" r="8" fill="#ffffff"/>
+  <path d="M44.8 19.2l2.3 2.3 4.2-4.6" fill="none" stroke="#2447b8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
